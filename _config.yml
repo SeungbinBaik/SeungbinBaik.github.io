@@ -6,38 +6,38 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Seungbin Baik
+title: Product Owner
+email: seungbin.baik@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone:
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+website: https://seungbinbaik.github.io
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-googleplus_username: +jekyll
-orcid_username: 0000-0000-0000-0000
+# twitter_username:
+# github_username:
+# stackoverflow_username:
+# dribbble_username:
+# facebook_username:
+# flickr_username:
+# instagram_username:
+# linkedin_username:
+# xing_username:
+# pinterest_username:
+# youtube_username:
+# googleplus_username:
+# orcid_username:
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+- title: Publication
+  icon: fab fa-google
+  url: https://scholar.google.co.kr/citations?user=zt_hEvYAAAAJ&hl=ko
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,64 +50,121 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  안녕하세요! &#128075;
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  세상과 사람에 대한 호기심으로 influence factor를 찾아 새로운 기회를 발굴하는 것을 즐기는 <mark>백승빈</mark>입니다. 급변하는 상황과 위기에 대응하는 Game Changer가 되기 위해 보다 나은 팀의 <mark>Facilitator</mark>로 노력하고 있습니다. 저는 목표의 달성과 높은 성과를 위해서는 Teamwork이 중요하다 생각합니다. 그리고 Team-driven을 위해서는 개인의 전문성이 융합될 수 있는 높은 수준의 빠른 소통과 의사결정이 중요하다 믿고 있습니다.
+
+  그리고 이를 총괄하는 팀의 리더는 <mark>오케스트라의 지휘자</mark>라고 생각합니다. 자신만의 특별하고 독보적인 Skill을 갈고 닦음과 동시에 조직에 부족한 것을 채우고 조화를 이룰 수 있게 돕는 모더레이터 역할에 집중하고 조직의 나침반 역할을 해줄 수 있어야 하기 때문입니다. 이때 좋은 지휘자는 필연적으로 동료로부터 높은 신뢰감을 형성하는 것이 중요하다 생각합니다. 이를 위해 저는 전체의 프로세스를 동료들이 납득할 만한 수준으로 세분화하고 발전시키는 것에 집중하는 편이며 건설적이고 효율적인 회의를 위해 그들의 깊이 있는 작업을 이해하는 것에 힘쓰고 있습니다.
+
+  저의 지금이 제가 이상적으로 생각하는 팀의 리더는 아니지만 이상적인 팀의 리더가 되기 위해 성장하고 있다고 확신합니다. 특히 좋은 제품을 위해 팀 빌딩부터 제품 개발까지의 A to Z, 제품과 비즈니스의 end-to-end를 수행하며 쌓인 경험들은 제가 지향하는 리더가 되기 위한 좋은 경험이 되고 있다고 믿고 있습니다.
+
+  지혜와 경험을 나누고 함께 성장할 수 있는 소중한 인연을 기대합니다!&#128591;
+
+  <a href="mailto:seungbin.baik@gmail.com">seungbin.baik@gmail.com</a>
 
 content:
-  - title: Projects # Title for the section
+  - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: DeepNatural Inc.
+        sub_title: Labelr
+        caption: Jun 2020 - present
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # quote: >
+          # Short overview of the project (optional)
+        # description: | # this will include new lines to allow paragraphs
         quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+          &#8226; Director<br>&#8226; Product Owner<br>&#8226; Lead of Product Owner
+      - layout: left
+        title: Mfort Inc.
+        sub_title: mom-sitter
+        caption: Apr 2020 - May 2020
+        # description: | # this will include new lines to allow paragraphs
         quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+          &#8226; Product Owner
+      - layout: left
+        title: Plani Inc.
+        sub_title: NerdFactory
+        caption: Aug 2014 - Mar 2020
+        quote: >
+          &#8226; Research Director<br>&#8226; Product Owner<br>&#8226; Led of Product Owner<br>&#8226; iOS Developer
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+      - layout: left
+        title: KAIST
+        sub_title: MS, Future Strategy
+        caption: Sep 2016 - Aug 2018
+        # quote: >
+        #   Short institution or course description (optional)
         quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+          온라인 빅데이터를 이용한 미래 예측에 관한 연구: 감성 분석과 전이 엔트로피를 기반으로
+      - layout: left
+        title: 충남대학교
+        sub_title: MBA, Business Administration
+        caption: Sep 2013 - Aug 2015
+        # quote: >
+        #   Short institution or course description (optional)
+        # description: | # this will include new lines to allow paragraphs
+        #   온라인 빅데이터를 이용한 미래 예측에 관한 연구: 감성 분석과 전이 엔트로피를 기반으로
+      - layout: left
+        title: China University of Political Science & Law
+        sub_title: BA, Law
+        caption: Sep 2005 - Jul 2009
+        # quote: >
+        #   Short institution or course description (optional)
+        quote: >
+          Comparison of Korean and Chinese Economic Laws
+      - layout: left
+        title: 휘문고등학교
+        # sub_title: BA, Law
+        caption: Mar 2002 - Feb 2005
+        # quote: >
+        #   Short institution or course description (optional)
+        # description: | # this will include new lines to allow paragraphs
+          # Comparison of Korean and Chinese Economic Laws
+  - title: Skils
+    layout: list
+    content:
+      - layout: left
+        title: 제품 관리
+        quote: >
+          &#10003; 제품 우선순위 결정 및 이슈 명확화<br>
+          &#10003; 실험 설계 및 검증<br>
+          &#10003; 스프린트 이터레이션 및 스크럼 관리<br>
+          &#10003; 데이터 기반의 가설 검증(SQL, Athena, R, Python, Google Analytics)<br>
+          &#10003; Notion, md 등을 활용한 문서화<br>
+          &#10003; UI/UX 협업(Zeplin, Sketch, Figma)
+      - layout: left
+        title: 사업 및 서비스 기획
+        quote: >
+          &#10003; 예산 편성 및 사업 관리<br>
+          &#10003; 경쟁사 조사 및 서비스 전략 수립<br>
+          &#10003; 중장기 제품 및 사업 전략 수립
+      - layout: left
+        title: 모바일 앱 개발
+        quote: >
+          &#10003; RxSwift<br>
+          &#10003; UIKit<br>
+          &#10003; Reactor Kit
+  - title: Contact
+    layout: list
+    content:
+      - layout: left
+        # title:
+        quote: >
+          <a href="mailto:seungbin.baik@gmail.com">seungbin.baik@gmail.com</a><br>
+          Thanks for reading! &#128075;
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true

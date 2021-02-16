@@ -2,6 +2,9 @@
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
 @import url(https://use.fontawesome.com/releases/v5.11.2/css/all.css);
 @import url(https://use.fontawesome.com/releases/v5.11.2/css/v4-shims.css);
+@font-face { font-family: 'GyeonggiBatang';
+src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
+font-weight: normal; font-style: normal; }
 
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   appearance: none;
@@ -11,7 +14,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "GyeonggiBatang";
   font-size: 1rem;
   -webkit-font-smoothing: antialiased;
   font-weight: 600;
@@ -45,7 +48,7 @@ input,
 label,
 select {
   display: block;
-  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "GyeonggiBatang";
   font-size: 1rem; }
 
 label {
@@ -148,7 +151,7 @@ html {
 
 body {
   background: #ffffff;
-  font-family: Roboto, sans-serif;
+  font-family: 'GyeonggiBatang';
   -webkit-font-smoothing: antialiased; }
 
 .center-text {
