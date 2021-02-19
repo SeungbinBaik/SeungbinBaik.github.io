@@ -136,21 +136,21 @@ content:
     layout: list
     content:
       - layout: left
-        title: 제품 관리
+        title: 제품 관리 및 서비스 기획
         quote: >
           &#10003; 백로그 관리 및 문제 해결을 위한 커뮤니케이션&모더레이팅<br>
           &#10003; 제품 우선순위 결정 및 문제 명확화<br>
+          &#10003; 데이터 기반의 가설 설정 및 검증(SQL, Athena, R, Python, Google Analytics)<br>
+          &#10003; 실험 설계 및 검증<br>
+          &#10003; Notion, md 등을 활용한 문서화<br>
           &#10003; 스프린트 이터레이션 및 스크럼 관리<br>
-          &#10003; Notion, md 등을 활용한 문서화
+          &#10003; UI/UX 협업(Zeplin, Sketch, Figma)
       - layout: left
-        title: 사업 및 서비스 기획
+        title: 사업 관리 및 기획
         quote: >
           &#10003; 예산 편성 및 사업 관리<br>
           &#10003; 경쟁사 조사 및 서비스 전략 수립<br>
-          &#10003; 중장기 제품 및 사업 전략 수립<br>
-          &#10003; 실험 설계 및 검증<br>
-          &#10003; 데이터 기반의 가설 검증(SQL, Athena, R, Python, Google Analytics)<br>
-          &#10003; UI/UX 협업(Zeplin, Sketch, Figma)
+          &#10003; 중장기 제품 및 사업 전략 수립
       - layout: left
         title: 모바일 앱 개발
         quote: >
