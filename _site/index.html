@@ -16,7 +16,40 @@
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico"></head>
-<body class=""><div class="container header-contianer">
+<body class="">
+  <!-- 상단 진행바 시작 -->
+  <style>
+  .progress-bar {
+      background: linear-gradient(to right, #0099FB var(--scroll), transparent 0);
+      background-repeat: no-repeat;
+      width: 100%;
+      position: fixed;
+      top: 0px;
+      left: 0;
+      height: 3px;
+      z-index: 9000;
+  }
+  </style>
+
+  <!-- This is the bar which shows scroll percentage -->
+  <div class="progress-bar"></div>
+
+
+  <!-- Script used to generate --scroll variable with current scroll percentage value -->
+  <script>
+  var element = document.documentElement,
+    body = document.body,
+    scrollTop = 'scrollTop',
+    scrollHeight = 'scrollHeight',
+    progress = document.querySelector('.progress-bar'),
+    scroll;
+
+  document.addEventListener('scroll', function() {
+    scroll = (element[scrollTop]||body[scrollTop]) / ((element[scrollHeight]||body[scrollHeight]) - element.clientHeight) * 100;
+    progress.style.setProperty('--scroll', scroll + '%');
+  });
+  </script>
+  <!-- 하단 진행바 끝 출처: https://blog.webjeda.com/top-bar-website/#scroll-percentage-top-bar --><div class="container header-contianer">
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
       <h1>Seungbin Baik</h1>
