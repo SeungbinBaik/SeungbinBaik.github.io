@@ -83,7 +83,7 @@ content:
           # Short overview of the project (optional)
         # description: | # this will include new lines to allow paragraphs
         quote: >
-          &#8226; Director<br>&#8226; Product Owner<br>&#8226; Lead of Product Owner
+          &#8226; CPO
       - layout: left
         title: Mfort Inc.
         sub_title: mom-sitter
@@ -102,7 +102,8 @@ content:
         sub_title: Business Strategy Team
         caption: Oct 2011 - Jul 2014
         quote: >
-          &#8226; Marketer<br>
+          &#8226; Strategy Planner<br>
+          &#8226; Marketer
 
   - title: Education
     layout: list
